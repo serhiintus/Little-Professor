@@ -3,7 +3,7 @@
 #### Description:
 This project is an emulator of the Little Professor for PC. Little Professor is a game that works like a backwards calculator, it generates unsolved mathematical expressions and prompts the user for the answer. If the answer is correct, the user's score increases by one. If the answer is incorrect, "EEE" will be displayed. The user has three tries, if all are incorrect, the correct answer is displayed, and the next expression will then appear. The game consists of sets of five mathematical expressions, after completing each set the score is displayed. The game has four mathematical operations: addition, subtraction, multiplication and division. It also has five difficulty levels. The user can pick mathematical operations and difficulty level. If the user change the operation after a set of expressions has already began, the game will restart with a new set of five expressions.
 
->__Note__: After the last update, this project no longer requires a Python installation and related libraries. The application is now portable and executable. To run the application, simply download the repository to the local machine and launch 'project.exe'.
+>__Note__: After the last update, this project no longer requires a Python installation and related libraries. The application is now portable and executable. To run the application, simply download the repository to the local machine and launch `project.exe`.
 
 This project consists of four files:
 
