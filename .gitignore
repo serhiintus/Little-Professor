@@ -1,4 +1,24 @@
-venv/
+# Python
 __pycache__/
-.pytest_cache/
 *.pyc
+
+# Pytest
+.pytest_cache/
+
+# Virtual environment
+venv/
+.env/
+
+# Build
+build/
+dist/
+*.spec
+*.exe
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
