@@ -1,17 +1,5 @@
-import sys
 import random
-from little_professor import LPView, LPController, QApplication
 
-
-def main():
-    """little professor's main function"""
-    app = QApplication([])
-    lp_view = LPView()
-    lp_view.show()
-    lp_controller = LPController(
-        view=lp_view, add=addition, sub=subtraction, mult=multiplication, div=division
-    )
-    sys.exit(app.exec())
 
 def generate_integer(n, divisor=False):
     """Generate a pseudo random number with n digits."""
@@ -58,6 +46,3 @@ def division(level):
         x = generate_integer(a)
         y = generate_integer(b, True)
     return {"expression": f"{x} / {y}", "result": str(x // y)}
-
-if __name__ == "__main__":
-    main()
