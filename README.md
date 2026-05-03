@@ -36,19 +36,20 @@ The project follows a clean separation of concerns:
 ```text
 Little-Professor/
 │
-├── main.py # Entry point
+├── main.py                     # Entry point
 │
 ├── gui/
-│ ├── view.py # UI (LPView)
-│ ├── controller.py # App logic & event handling (LPController)
-│ └── init.py
+│   ├── view.py                 # UI (LPView)
+│   ├── controller.py           # App logic & event handling (LPController)
+│   └── __init__.py
 │
 ├── logic/
-│ ├── game.py # Core math logic (pure functions)
-│ └── init.py
+│   ├── game.py                 # Core math logic (pure functions)
+│   └── __init__.py
 │
 ├── tests/
-│ └── test_game.py # Unit tests (pytest)
+│   ├── test_game.py            # Unit tests (pytest)
+│   └── __init__.py
 │
 ├── .gitignore
 ├── requirements.txt
@@ -57,35 +58,32 @@ Little-Professor/
 
 ---
 
-## ⚙️ Installation
-
-### 1. Clone repository
+## ⚡ Quick Start
 
 ```bash
 git clone https://github.com/serhiintus/Little-Professor.git
 cd Little-Professor
+pip install -r requirements.txt
+python main.py
 ```
 
-### 2. Create virtual environment (recommended)
+---
+
+## ⚙️ Optional: Virtual Environment (Recommended)
 
 ```bash
 python -m venv venv
 venv/Scripts/activate   # Windows
-```
-
-### 3. Install dependencies
-
-```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-## ▶️ Run the application
+## 📦 Download (No Python required)
 
-```bash
-python main.py
-```
+👉 **[Download Little-Professor.exe](https://github.com/serhiintus/Little-Professor/releases/tag/v1.0.0)**
+
+Run the application by double-clicking the file.
 
 ---
 
@@ -94,12 +92,6 @@ python main.py
 ```bash
 pytest
 ```
-
----
-
-## 📦 Download
-
-👉 [Download executable](https://github.com/serhiintus/Little-Professor/releases/tag/v1.0.0)
 
 ---
 
@@ -121,11 +113,23 @@ pytest
 
 ## ⭐ Why this project?
 
-This project demonstrates:  
-- Ability to design and structure a real application
-- Understanding of clean architecture principles
-- Writing testable and maintainable Python code
-- Building user-facing desktop tools
+This project highlights:
+
+- Ability to design and structure a real-world application
+- Experience with GUI development using PyQt6
+- Writing clean, modular, and testable Python code
+- Applying software architecture principles (separation of concerns)
+- Delivering a complete product (code + executable + documentation)
+
+
+---
+
+## 🛠 Tech Stack
+
+- Python
+- PyQt6
+- PyInstaller
+- pytest
 
 ---
 
