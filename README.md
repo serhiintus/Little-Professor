@@ -97,10 +97,9 @@ pytest
 
 ---
 
-## 📦 Executable Version
+## 📦 Download
 
-The project can be packaged into a standalone .exe using PyInstaller.  
-This allows running the app without installing Python or dependencies.
+👉 [Download executable](https://github.com/serhiintus/Little-Professor/releases/tag/v1.0.0)
 
 ---
 
